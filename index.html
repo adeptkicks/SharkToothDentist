@@ -1337,7 +1337,6 @@
                <!-- 
               <a href="#" class="btn">Book appointment</a>
               -->
-
         <button aria-label="Toggle menu" class="nav-toggle-btn" data-nav-toggler="">
           <ion-icon aria-hidden="true" class="menu-icon" name="menu-sharp"></ion-icon>
           <ion-icon aria-hidden="true" class="close-icon" name="close-sharp"></ion-icon>
@@ -1346,13 +1345,10 @@
         </ul></nav></div>
       </div>
   </header>
-
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
+      <!-- - #HERO -->
 
       <section aria-label="hero" class="section hero" id="home" style="background-image: url('./assets/images/hero-bg.png')">
         <div class="container">
@@ -1379,14 +1375,11 @@
           </div>
 
           <figure class="hero-banner">
-            <img src="./images/Shark Tooth Logo1.png" width="587" height="839" alt="hero banner" class="w-100">
+            <img alt="hero banner" class="w-100" height="839" src="./images/Shark Tooth Logo1.png" width="587"/>
           </figure>
 
         </div>
       </section>
-
-
-
 
 
       <!-- 
@@ -1532,24 +1525,17 @@
 
 
 
-      <!-- 
-        - #ABOUT
-      -->
+      <!-- - #ABOUT -->
 
-      <section class="section about" id="about" aria-label="about">
+      <section aria-label="about" class="section about" id="about">
         <div class="container">
-
           <figure class="about-banner">
-            <img src="./images/Shark Tooth.jpg" width="470" height="538" loading="lazy" alt="about banner"
-              class="w-100">
+            <img alt="about banner" class="w-100" height="538" loading="lazy" src="./images/Shark Tooth.jpg" width="470"/>
           </figure>
 
           <div class="about-content">
-
             <p class="section-subtitle">About Us</p>
-
             <h2 class="h2 section-title">We Care For Your Dental Health</h2>
-
             <p class="section-text section-text-1">
               We are a pediatric dental office that specializes in nitrous sedation for treatment, and if necessary, the option of general anesthesia.
             </p>
@@ -1566,10 +1552,6 @@
 
         </div>
       </section>
-
-
-
-
 
       <!-- 
         - #DOCTOR
@@ -2114,6 +2096,60 @@
   </footer>
 
 
+    <!-- Ocean Effects -->
+    <div class="waves"></div>
+
+    <div class="bubbles">
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+    </div>
+
+    <img src="./images/Nemo.png" class="fish" alt="Swimming fish">
+    <img src="./images/corelreff.png" class="coral" alt="Coral decoration">
+
+    <!-- Reverse Direction Fishes -->
+    <img src="./images/Turtle1.png" class="fish fish-reverse" style="top: 30%; animation-delay: 1s;" alt="Fish Left">
+    <!--   
+    <img src="./images/shark3.png" class="fish fish-reverse" style="top: 65%; animation-delay: 4s;" alt="Fish Left 2">
+     -->
+    <img src="./images/yellowSHARK.png" class="fish fish-reverse" style="top: 50%; animation-delay: 5s;" alt="Fish Left 3">
+    <img src="./images/Shark_Tooth.png" class="fish fish-reverse" style="top: 75%; animation-delay: 3s;" alt="Fish Left 2">
+ 
+    <!-- More Animated Fishes -->
+    <img src="./images/seahorse.png" class="fish" style="top: 40%; animation-delay: 2s;" alt="Fish 1">
+    <img src="./images/Octopus.png" class="fish" style="top: 50%; animation-delay: 4s;" alt="Fish 2">
+    <img src="./images/diver.png" class="fish" style="top: 65%; animation-delay: 6s;" alt="Fish 3">
+
+
+
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal().reveal('#hero h1', {
+        delay: 200,
+        duration: 1000,
+        origin: 'top',
+        distance: '50px'
+      });
+      ScrollReveal().reveal('#hero p', {
+        delay: 400,
+        duration: 1000,
+        origin: 'bottom',
+        distance: '40px'
+      });
+
+      ScrollReveal().reveal('.feature', {
+        duration: 1000,
+        distance: '60px',
+        easing: 'ease-out',
+        origin: 'bottom',
+        interval: 200
+      });
+    </script>
 
 
 
